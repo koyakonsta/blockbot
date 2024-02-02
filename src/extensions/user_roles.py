@@ -4,7 +4,7 @@ import hikari
 from src.utils import role_mention
 from src.config import ROLE_IDS
 
-plugin = arc.GatewayPlugin("User Roles")
+plugin = arc.GatewayPlugin(name="User Roles")
 
 role = plugin.include_slash_group("role", "Get/remove assignable roles.")
 
